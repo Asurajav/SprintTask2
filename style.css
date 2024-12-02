@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4680c2;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.search {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    height: 100vh;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #4680c2;
+}
+
+.content {
+    width: 270px;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.friends {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.profile-friends {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+.image-profile{
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+}
+
+.button-profile{
+    margin-top: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edit-btn {
+    background-color: #4680c2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 20px;
+}
+.main-containers {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img-my-img{
+    width: 180px;
+    height: 130px;
+}
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-my-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info ul li {
+    margin-bottom: 5px;
+}
+
+.friends h3 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.friends-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.friend {
+    width: 80px;
+    text-align: center;
+}
+
+.friend img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.friend p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.content-avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.content-avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content-avatar p {
+    padding-left: 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.nav-friends{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-friends p{
+    font-size: 10px;
+    color: silver;
+}
+.nav-friends-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+}
+.user-list{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.user-list-col{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 100%;
+    align-items: flex-start;
+    
+}
+.user-list-col p{
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.user-list img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
